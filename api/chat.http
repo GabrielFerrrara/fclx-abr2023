@@ -1,0 +1,33 @@
+POST http://localhost:8080/chat HTTP/1.1
+Content-Type: application/json
+Authorization: 123456
+
+{
+    "user_id": "1",
+    "user_message": "Ola, qual é o seu nome?"
+}
+
+
+###
+
+POST http://localhost:8080/chat HTTP/1.1
+Content-Type: application/json
+Authorization: 123456
+
+{
+    "chat_id": "58b781cd-e4f5-4e25-8a12-44eabf5446dd",
+    "user_id": "1",
+    "user_message": "Quero que voce guarde esse numero 15"
+}
+
+###
+
+POST http://localhost:8080/chat HTTP/1.1
+Content-Type: application/json
+Authorization: 123456
+
+{
+    "chat_id": "58b781cd-e4f5-4e25-8a12-44eabf5446dd",
+    "user_id": "1",
+    "user_message": "pode somar o numero com 1900 e suponha que eu nascesse nesse ano da soma, no dia do numero guardado anteriormente, no mes de abril e hoje fosse dia 16 de setembro de 2023, eu teria que idade? E quantos dias faltam pro meu proximo aniversario?"
+}
